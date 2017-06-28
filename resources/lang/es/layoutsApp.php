@@ -1,4 +1,5 @@
 <?php return [
+	'metaDescription' => 'Enlaces CDN Autoactualizables de todas tus librerías que necesitas',
 	'navHome' => 'Inicio',
 	'navThemes' => 'Temas',
 	'navAccount' => 'Cuenta',
@@ -6,4 +7,9 @@
 	'navLogout' => 'Salir',
 	'navSubmit' => 'Solicitar Ingreso de CDN',
 	'navCDNLinks' => 'Enlaces CDN',
+	'navHowdoesitwork' => '¿C&oacute;mo funciona?',
+	'navCredits' => 'Cr&eacute;ditos',
+	'navLicense' => 'Licencia',
+	'footerCreatedBy' => 'Creado por <a href="mailto:maramal@outlook.com">Mart&iacute;n Fern&aacute;ndez</a></p>',
+	'footerLicense' => 'Licenciado bajo <a href="' . action('WebController@license') . '">Licencia MIT</a>.',
 ];

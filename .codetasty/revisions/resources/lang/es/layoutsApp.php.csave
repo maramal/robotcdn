@@ -1,0 +1,13 @@
+codetasty.revision.2.0
+{"ts":1497453489,"restoring":false,"user_id":4599,"patch":[{"diffs":[[1,"<?php return [\n\t'navHome' => 'Inicio',\n\t'navThemes' => 'Temas',\n\t'navAccount' => 'Cuenta',\n\t'navLogin' => 'Ingreso',\n\t'navLogout' => 'Salir'\n];"]],"start1":0,"start2":0,"length1":0,"length2":143}],"length":143}
+{"ts":1497453492,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0," 'Salir'"],[1,","],[0,"\n];"]],"start1":132,"start2":132,"length1":11,"length2":12}],"length":144}
+{"ts":1497453598,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"Salir',\n"],[1,"\t'navSubmit' => 'Ingresar CDN'\n"],[0,"];"]],"start1":134,"start2":134,"length1":10,"length2":41}],"length":175}
+{"ts":1497453622,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"=> '"],[1,"Solicitar "],[0,"Ingres"],[-1,"ar"],[1,"o de"],[0," CDN"]],"start1":155,"start2":155,"length1":16,"length2":28}],"length":187}
+{"ts":1497495411,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0," de CDN'"],[1,",\n\t'navCDNLinks' => 'Enlaces CDN',"],[0,"\n];"]],"start1":176,"start2":176,"length1":11,"length2":45}],"length":221}
+{"ts":1497633094,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"eturn [\n"],[1,"\t'metaDescription' => 'Enlaces CDN Autoactualizables de todas tus librerías',\n"],[0,"\t'navHom"]],"start1":7,"start2":7,"length1":16,"length2":94}],"length":299}
+{"ts":1497633295,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"ibrerías"],[1," que necesitas"],[0,"',\n\t'nav"]],"start1":82,"start2":82,"length1":16,"length2":30}],"length":313}
+{"ts":1498605055,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"s CDN',\n"],[1,"\t'navHowdoesitwork' => '¿C&oacute;mo funciona?',\n"],[0,"];"]],"start1":303,"start2":303,"length1":10,"length2":59}],"length":362}
+{"ts":1498611702,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"iona?',\n"],[1,"\t'navCredits' => 'Cr&eacute;ditos',\n"],[0,"];"]],"start1":352,"start2":352,"length1":10,"length2":46}],"length":398}
+{"ts":1498628345,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"ditos',\n"],[1,"\t'navLicense' => 'Licencia',\n"],[0,"];"]],"start1":388,"start2":388,"length1":10,"length2":39}],"length":427}
+{"ts":1498631448,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"encia',\n"],[1,"\t'footerCreatedBy' => 'Creado por <a href=\"mailto:maramal@outlook.com\">Mart&iacute;n Fern&aacute;ndez</a></p>',\n"],[0,"];"]],"start1":417,"start2":417,"length1":10,"length2":122}],"length":539}
+{"ts":1498631555,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"></p>',\n"],[1,"\t'footerLicense' => 'Licenciado bajo <a href=\"' . action('WebController@license') . '\">Licencia MIT</a>.',\n"],[0,"];"]],"start1":529,"start2":529,"length1":10,"length2":117}],"length":646}

@@ -1,4 +1,5 @@
 <?php return [
+	'metaDescription' => 'Auto Updatable CDN links for all your libraries you need.',
 	'navHome' => 'Home',
 	'navThemes' => 'Themes',
 	'navAccount' => 'Account',
@@ -6,4 +7,9 @@
 	'navLogout' => 'Logout',
 	'navSubmit' => 'Request CDN Submit',
 	'navCDNLinks' => 'CDN Links',
+	'navHowdoesitwork' => 'How does it work?',
+	'navCredits' => 'Credits',
+	'navLicense' => 'License',
+	'footerCreatedBy' => 'Created by <a href="mailto:maramal@outlook.com">Martin Fernandez</a></p>',
+	'footerLicense' => 'Licensed under <a href="' . action('WebController@license') . '">MIT License</a>.',
 ];

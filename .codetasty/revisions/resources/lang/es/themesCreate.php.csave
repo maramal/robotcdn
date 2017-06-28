@@ -1,0 +1,8 @@
+codetasty.revision.2.0
+{"ts":1497412318,"restoring":false,"user_id":4599,"patch":[{"diffs":[[1,"<?php return [\n\t'firstTitle' => 'Temas',\n\t'secondTitle' => 'Crear',\n];"]],"start1":0,"start2":0,"length1":0,"length2":70}],"length":70}
+{"ts":1497412392,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"Crear',\n"],[1,"\t'new' => 'Nuevo',\n"],[0,"];"]],"start1":60,"start2":60,"length1":10,"length2":29}],"length":89}
+{"ts":1497412421,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"Nuevo',\n"],[1,"\t'newTheme' => 'Nuevo Tema',\n"],[0,"];"]],"start1":79,"start2":79,"length1":10,"length2":39}],"length":118}
+{"ts":1497448276,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0," Tema',\n"],[1,"\t'themeName' => 'Nombre',\n"],[0,"];"]],"start1":108,"start2":108,"length1":10,"length2":36}],"length":144}
+{"ts":1497448326,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"ombre',\n"],[1,"\t'themeURL' => 'Direcci&oacute;n URL',\n"],[0,"];"]],"start1":134,"start2":134,"length1":10,"length2":49}],"length":183}
+{"ts":1497448367,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"n URL',\n"],[1,"\t'createButton' => 'Crear',\n"],[0,"];"]],"start1":173,"start2":173,"length1":10,"length2":38}],"length":211}
+{"ts":1497448411,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,",\n\t'"],[-1,"create"],[1,"submit"],[0,"Butt"]],"start1":179,"start2":179,"length1":14,"length2":14}],"length":211}

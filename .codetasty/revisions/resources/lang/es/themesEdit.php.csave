@@ -1,0 +1,8 @@
+codetasty.revision.2.0
+{"ts":1497450573,"restoring":false,"user_id":4599,"patch":[{"diffs":[[1,"<?php return [\n\t'firstTitle' => 'Temas',\n\t'secondTitle' => 'Editar',\n\t\n];"]],"start1":0,"start2":0,"length1":0,"length2":73}],"length":73}
+{"ts":1497450590,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"itar',\n\t"],[1,"'themes' => 'Temas'"],[0,"\n];"]],"start1":62,"start2":62,"length1":11,"length2":30}],"length":92}
+{"ts":1497450693,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0," 'Temas'"],[1,",\n\t'edit' => 'Editar',"],[0,"\n];"]],"start1":81,"start2":81,"length1":11,"length2":33}],"length":114}
+{"ts":1497450866,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"ditar',\n"],[1,"\t'formName' => 'Nombre',\n\t'formURL' => 'Direcci&oacute;n URL'\n"],[0,"];"]],"start1":104,"start2":104,"length1":10,"length2":72}],"length":176}
+{"ts":1497450877,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"e;n URL'"],[1,",\n\t'formSubmit' => 'Editar'"],[0,"\n];"]],"start1":165,"start2":165,"length1":11,"length2":38}],"length":203}
+{"ts":1497450879,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"'Editar'"],[1,","],[0,"\n];"]],"start1":192,"start2":192,"length1":11,"length2":12}],"length":204}
+{"ts":1497450946,"restoring":false,"user_id":4599,"patch":[{"diffs":[[0,"ditar',\n"],[1,"\t'editTheme' => 'Editar Tema',\n"],[0,"\t'formNa"]],"start1":104,"start2":104,"length1":16,"length2":47}],"length":235}

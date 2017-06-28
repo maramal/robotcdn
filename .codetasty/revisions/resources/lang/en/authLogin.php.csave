@@ -1,0 +1,2 @@
+codetasty.revision.2.0
+{"ts":1497452203,"restoring":false,"user_id":4599,"patch":[{"diffs":[[1,"<?php\r\nreturn [\r\n\t'panelHeading' => 'Login',\r\n\t'formEmail' => 'Email Address',\r\n\t'formPassword' => 'Password',\r\n\t'formRememberMe' => 'Remember me',\r\n\t'formSubmitButton' => 'Login',\r\n\t'formForgotLink' => 'Do you forgot your password?'\r\n];"]],"start1":0,"start2":0,"length1":0,"length2":237}],"length":237}

@@ -1,0 +1,7 @@
+<?php return [
+	'title' => 'Licencia',
+	'copyright' => 'Copyright (c) ' . \Carbon\Carbon::now()->year . ' Mart&iacute;n Fern&aacute;ndez',
+	'first' => 'Por la presente se autoriza, de forma gratuita, a cualquier persona que haya obtenido una copia de este software y archivos de documentaci&oacute;n asociados (el "Software"), a utilizar el Software sin restricci&oacute;n, incluyendo sin limitaci&oacute;n los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias de este Software, y permitir lo mismo a las personas a las que se les proporcione el Software, de acuerdo con las siguientes condiciones:',
+	'second' => 'El aviso de copyright anterior y este aviso de permiso tendr&aacute;n que ser incluidos en todas las copias o partes sustanciales del Software.',
+	'third' => 'EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANT&Iacute;A DE NING&Uacute;N TIPO, YA SEA EXPRESA O IMPL&Iacute;CITA, INCLUYENDO, A MODO ENUNCIATIVO, CUALQUIER GARANT&Iacute;A DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO INFRACCI&Oacute;N. EN NING&Uacute;N CASO LOS AUTORES O TITULARES DEL COPYRIGHT INCLUIDOS EN ESTE AVISO SER&Aacute;N RESPONSABLES DE NINGUNA RECLAMACI&Oacute;N, DA&Ntilde;OS U OTRAS RESPONSABILIDADES, YA SEA EN UN LITIGIO, AGRAVIO O DE OTRO MODO, RESULTANTES DE O EN CONEXION CON EL SOFTWARE, SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.',
+];

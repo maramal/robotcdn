@@ -15,12 +15,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="@lang('layoutsApp.metaDescription')">
+    <meta name="google-site-verification" content="I-6c1jjeUiPxouAH60JfsMHH18GDIc_7xDnzd82mCbU" />
     @yield('meta_tags')
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.css') }}">
-    <link rel="stylesheet" href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://www.robotcdn.org/lib/tether.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://www.robotcdn.org/lib/twitter-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://www.robotcdn.org/lib/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset($current_theme) }}">
     @yield('external_css')
 
@@ -35,10 +37,13 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Robot CDN</a>
+            <a class="navbar-brand" href="#"><img width="120" src="{{ asset('/public/img/logo.png') }}" alt="Logo Robot CDN"></a>
           </div>
           <ul class="nav navbar-nav">
             <li><a href="{{ action('WebController@index') }}"><i class="fa fa-home"></i> @lang('layoutsApp.navHome')</a></li>
+            <li><a href="{{ action('WebController@howdoesitwork') }}"><i class="fa fa-gear"></i> @lang('layoutsApp.navHowdoesitwork')</a></li>
+            <li><a href="{{ action('WebController@credits') }}"><i class="fa fa-thumbs-o-up"></i> @lang('layoutsApp.navCredits')</a></li>
+            <li><a href="{{ action('WebController@license') }}"><i class="fa fa-book"></i> @lang('layoutsApp.navLicense')</a></li>
             @if(Auth::check())
             <li><a href="{{ action('ThemeController@index') }}"><i class="fa fa-paint-brush"></i> @lang('layoutsApp.navThemes')</a></li>
             <li><a href="{{ action('CDNController@index') }}"><i class="fa fa-link"></i> @lang('layoutsApp.navCDNLinks')</a></li>
@@ -81,14 +86,31 @@
       <div class="container">
       @yield('content')
       </div>
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-6 col-md-offset-3">
+          <p>@lang('layoutsApp.footerCreatedBy')</p>
+          <p>@lang('layoutsApp.footerLicense')</p>
+        </div>
+      </div>
 
     <!-- External JS -->
-    <script src="{{ asset('https://code.jquery.com/jquery-3.2.1.js') }}"></script>
-    <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js') }}"></script>
-    <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('https://www.robotcdn.org/lib/jquery.js') }}"></script>
+    <script src="{{ asset('https://www.robotcdn.org/lib/tether.min.js') }}"></script>
+    <script src="{{ asset('https://www.robotcdn.org/lib/twitter-bootstrap.min.js') }}"></script>
     @yield('external_js')
     
     <!-- Internal JS -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-82055070-3', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
     @yield('internal_js')
 
     <!-- Embedded JS -->

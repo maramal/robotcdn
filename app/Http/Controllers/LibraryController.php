@@ -22,6 +22,13 @@ class LibraryController extends Controller
         
         $content = file_get_contents($cdn->url);
         
+        if(strpos($content, '../'))
+        {
+            $url = explode($cdn->current_version, $cdn->url);
+            $url = $url[0] . $cdn->current_version . '/';
+            $content = str_replace('../', $url, $content);
+        }
+        
         if($cdn->file_type)
         {
             if($cdn->file_type === 'css')

@@ -16,6 +16,21 @@ class WebController extends Controller
         return view('web.index', $cdns);
     }
     
+    public function howdoesitwork()
+    {
+        return view('web.howdoesitwork');
+    }
+    
+    public function credits()
+    {
+        return view('web.credits');
+    }
+    
+    public function license()
+    {
+        return view('web.license');
+    }
+    
     public function logout()
     {
         if(Auth::check())

@@ -1,0 +1,2 @@
+codetasty.revision.2.0
+{"ts":1497452321,"restoring":false,"user_id":4599,"patch":[{"diffs":[[1,"<?php return [\n\t'firstTitle' => 'Themes',\n\t'secondTitle' => 'Create',\n\t'new' => 'New',\n\t'newTheme' => 'New Theme',\n\t'themeName' => 'Name',\n\t'themeURL' => 'URL Address',\n\t'submitButton' => 'Create',\n];"]],"start1":0,"start2":0,"length1":0,"length2":200}],"length":200}
